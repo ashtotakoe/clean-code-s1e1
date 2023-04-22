@@ -4,25 +4,25 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.header img {
   width: 100%;
 }
-.aaa .more_inf {
+.header .more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-  .aaa {
+  .header {
     text-align: center;
   }
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -89,7 +89,7 @@ input[type="text"]:focus {
 /* New Task */
 h3[for="new-task"] {
   display: block;
-  margin: 0 0 20px;
+  margin: 22px 0 20px;
 }
 input#new-task {
   width: 318px;
