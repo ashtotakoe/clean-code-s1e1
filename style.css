@@ -19,12 +19,6 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width: 768px) {
-  .header {
-    text-align: center;
-  }
-}
-
 .main {
   display: block;
   width: 500px;
@@ -70,7 +64,7 @@
   color: #3a3a3a;
 }
 
-/* Heading */
+
 .main__header {
   color: #333;
   font-weight: 700;
@@ -81,7 +75,7 @@
   text-transform: uppercase;
 }
 
-.input-text {
+.input_text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -94,11 +88,10 @@
   color: #888;
 }
 
-.input-text:focus {
+.input_text:focus {
   color: #333;
 }
 
-/* New Task */
 .main__header[for="new-task"] {
   display: block;
   margin: 22px 0 20px;
@@ -108,7 +101,6 @@
   width: 318px;
 }
 
-/* Task list */
 .wrapper__task {
   overflow: hidden;
   padding: 20px 0;
@@ -119,10 +111,10 @@
   align-items: center;
 
 
-  vertical-align: middle; /* li > * {} */
+  vertical-align: middle;
 }
 
-.input-check {
+.input_check {
   margin: 0 10px;
 }
 
@@ -133,7 +125,7 @@
   width: 226px;
 }
 
-.wrapper__task > .input-text {
+.wrapper__task > .input_text {
   width: 226px;
 }
 
@@ -147,18 +139,16 @@
   transform: rotateZ(0);
 }
 
-/* Completed */
 .wrapper#completed-tasks .label {
   text-decoration: line-through;
   color: #888;
 }
 
-/* Edit Task */
-.wrapper__task .input-text {
+.wrapper__task .input_text {
   display: none;
 }
 
-.wrapper__task.editMode .input-text {
+.wrapper__task.editMode .input_text {
   display: inline-block;
   width: 224px;
 }
@@ -166,3 +156,11 @@
 .wrapper__task.editMode .label {
   display: none;
 }
+
+@media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+}
+
+
