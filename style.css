@@ -81,7 +81,7 @@
   text-transform: uppercase;
 }
 
-.input[type="text"] {
+.input-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -94,7 +94,7 @@
   color: #888;
 }
 
-.input[type="text"]:focus {
+.input-text:focus {
   color: #333;
 }
 
@@ -148,7 +148,7 @@
 }
 
 /* Completed */
-.wrapper#completed-tasks label {
+.wrapper#completed-tasks .label {
   text-decoration: line-through;
   color: #888;
 }
